@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="port.css" rel="stylesheet" />
+
+    <style>
+      .row {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display:         flex;
+        flex-wrap: wrap;
+          }
+      .row > [class*='col-'] {
+        display: flex;
+        flex-direction: column;
+      }           
+      
+    </style>
+  </head>
+  
+
+  <body>
+    <div>
+      <!--#################### Navbar #####################-->
+      <nav class="navbar navbar-expand-md " style="padding-bottom: 0% !important;background-color: #1b1c1b;">
+        <a class="navbar-brand text-uppercase mr-lg-5 pr-lg-5 pt-lg-1 pb-lg-3" href="#"
+        >Abounida</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon">
+          <i
+            class="fa fa-navicon"
+            style="color: rgb(240, 230, 230); font-size: 28px"
+          ></i>
+        </span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav text-uppercase ml-auto pr-lg-5 mt-lg-3">
+          <li class="nav-item active">
+            <a class="nav-link ml-lg-4 mr-lg-2 mr-md-1" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ml-lg-4 mr-lg-2 mr-md-1" href="index.html#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ml-lg-4 mr-lg-2 mr-md-1" href="index.html#Skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ml-lg-4 mr-lg-2 mr-md-1" href="index.html#education">Education</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link ml-lg-4 mr-lg-2 mr-md-1" href="index.html#experience"
+              >Experience</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ml-lg-4 mr-lg-2 mr-md-1" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ml-lg-4 mr-lg-2 mr-md-1" href="index.html#achievement"
+              >Achievements</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ml-lg-4 mr-lg-2 mr-md-1" href="index.html#testimonial"
+              >Testimonial</a
+            >
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link ml-lg-4 mr-lg-2 mr-md-1 pb-lg-4" href="contact.html" target="blank">Contact</a>
+          </li> -->
+        </ul>
+      </div>
+    </nav>
+
+    </div>
+
+
+      <!--#####################################################################################################################################################-->
+      <!--#################################################################### Projects  #####################################################################-->
+      <!--#####################################################################################################################################################-->
+  
+      <div class="container bootstrap snippets bootdey">
+        <h1 class="text-center section-title mt-5">My Projects</h1>
+        <hr>
+        <section id="portfolio" class="gray-bg padding-top-bottom">    
+            <div class="container bootstrap snippets bootdey">
+                <!--==== Portfolio Filters ====-->
+                <div class="categories">
+                    <ul>
+                        <li class="active">
+                            <a href="#" data-filter="*">All Categories</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".web">Web Development</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".soft">Software Design</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".data">Data Analysis</a>
+                        </li>
+                        <li>
+                          <a href="#" data-filter=".game">Games</a>
+                      </li>
+                    </ul>
+                </div>
+                
+                <!-- ======= Portfolio items ===-->
+                <div class="projects-container scrollimation in">
+                    <div class="row">
+
+                        <article class="col-md-4 col-sm-6 portfolio-item apps game mb-5 pb-5">
+                          <div class="portfolio-thumb in text-center">
+                              <a href="#" class="main-link text-center" href="https://github.com/AbdelrahmanAbounida/SpaceRunnerGame" target="blank">
+                                  <img class="img-responsive container" src="assets/projects/space.jpg" style="padding-bottom: 80px !important;" width="200" height="300" alt="">
+                                  <div class=" ">
+                                    <a class="project-title btn bg-success text-white p-2 bg-dark" target="blank" href="https://github.com/AbdelrahmanAbounida/SpaceRunnerGame" style="font-weight: bold;">Space Runner Game
+                                    </a>
+                                  </div>
+                              </a>                                
+                          </div>
+                        </article>
+
+                        <article class="col-md-4 col-sm-6 portfolio-item apps game mb-5 pb-5">
+                          <div class="portfolio-thumb in text-center">
+                              <a href="#" class="main-link text-center" href="https://fish1game.herokuapp.com/" target="blank">
+                                  <img class="img-responsive container" src="assets/projects/fish.png" style="padding-bottom: 80px !important;" width="200" height="300" alt="">
+                                  <div class=" ">
+                                    <a class="project-title btn bg-success text-white p-2 bg-dark" target="blank" href="https://fish1game.herokuapp.com/" style="font-weight: bold;">Fish Game - Heroku
+                                    </a>
+                                  </div>
+                              </a>                                
+                          </div>
+                      </article>
+
+
+                      <article class="col-md-4 col-sm-6 portfolio-item apps data mb-5 pb-5">
+                        <div class="portfolio-thumb in text-center">
+                            <a href="#" class="main-link text-center" href="https://github.com/AbdelrahmanAbounida/Traffic-violations--Analysis">
+                                <img class="img-responsive container-fluid " src="assets/projects/dataa2.png" width="200" height="300"  alt="">
+                                <div class=" ">
+                                  <a class="project-title btn bg-success text-white p-2 bg-dark" style="font-weight: bold;" target="blank" href="https://github.com/AbdelrahmanAbounida/Traffic-violations--Analysis">
+                                    Traffic Violations Analysis</a>
+                                </div>
+                            </a>                                
+                        </div>
+                    </article>
+
+                    <article class="col-md-4 col-sm-6 portfolio-item apps data mb-5 pb-5">
+                      <div class="portfolio-thumb in text-center">
+                          <a href="#" class="main-link text-center" href="https://github.com/AbdelrahmanAbounida/Stress-Analysis---Matplotlib/blob/main/Forces.png" target="blank">
+                              <img class="img-responsive container" src="assets/projects/Forces.png" style="padding-bottom: 80px !important;" width="200" height="300" alt="">
+                              <div class=" ">
+                                <a class="project-title btn bg-success text-white p-2 bg-dark" target="blank" href="https://github.com/AbdelrahmanAbounida/Stress-Analysis---Matplotlib/blob/main/Forces.png" style="font-weight: bold;">Stress Analysis Matplotlib
+                                </a>
+                              </div>
+                          </a>                                
+                      </div>
+                    </article>
+
+                      <article class="col-md-4 col-sm-6 portfolio-item apps web mb-5 pb-5">
+                        <div class="portfolio-thumb in text-center">
+                            <a href="#" class="main-link text-center" href="https://github.com/AbdelrahmanAbounida/Currency-Converter" target="blank">
+                                <img class="img-responsive container" src="assets/projects/currency.png" width="200" height="300" style="padding-bottom: 90px !important;" alt="">
+                                <div class=" ">
+                                  <a class="project-title btn bg-success text-white p-2 bg-dark" target="blank" href="https://github.com/AbdelrahmanAbounida/Currency-Converter" style="font-weight: bold;">Currency Converter</a>
+                                </div>
+                            </a>                                
+                        </div>
+                    </article>
+
+                    <article class="col-md-4 col-sm-6 portfolio-item apps web mb-5 pb-5">
+                      <div class="portfolio-thumb in text-center">
+                          <a href="#" class="main-link text-center" href="https://github.com/AbdelrahmanAbounida/Django-API-" target="blank">
+                              <img class="img-responsive container" src="assets/projects/api-django2.png" width="200" height="300" style="padding-bottom: 80px !important;" alt="">
+                              <div class=" ">
+                                <a class="project-title btn bg-success text-white p-2 bg-dark" target="blank" href="https://github.com/AbdelrahmanAbounida/Django-API-" style="font-weight: bold;">Django API</a>
+                              </div>
+                          </a>                                
+                      </div>
+                  </article>
+
+
+                      <article class="col-md-4 col-sm-6 portfolio-item apps web mb-5 pb-5">
+                        <div class="portfolio-thumb in text-center">
+                            <a href="#" class="main-link text-center" href="https://github.com/AbdelrahmanAbounida/product-Management-System" target="blank">
+                                <img class="img-responsive container" src="assets/projects/pms.PNG" style="padding-bottom: 80px !important;" width="200" height="300" alt="">
+                                <div class=" ">
+                                  <a class="project-title btn bg-success text-white p-2 bg-dark" target="blank" href="https://github.com/AbdelrahmanAbounida/product-Management-System" style="font-weight: bold;">product Management System
+                                  </a>
+                                </div>
+                            </a>                                
+                        </div>
+                    </article>
+
+                    <article class="col-md-4 col-sm-6 portfolio-item apps web mb-5 pb-5">
+                      <div class="portfolio-thumb in text-center">
+                          <a href="#" class="main-link text-center" href="https://github.com/AbdelrahmanAbounida/ToDoList--Django" target="blank">
+                              <img class="img-responsive container" src="assets/projects/todo1.PNG" style="padding-bottom: 80px !important;" width="200" height="300" alt="">
+                              <div class=" ">
+                                <a class="project-title btn bg-success text-white p-2 bg-dark" target="blank" href="https://github.com/AbdelrahmanAbounida/ToDoList--Django" style="font-weight: bold;">ToDoList-Django
+                                </a>
+                              </div>
+                          </a>                                
+                      </div>
+                  </article>
+
+
+                      <article class="col-md-4 col-sm-6 portfolio-item apps soft mb-5 pb-5">
+                        <div class="portfolio-thumb in text-center">
+                            <a href="#" class="main-link text-center" href="https://github.com/AbdelrahmanAbounida/AWS-Price-Monitoring" target="blank">
+                                <img class="img-responsive container" src="assets/projects/aws.png" width="200" height="300" alt="">
+                                <div class=" ">
+                                  <a class="project-title btn bg-success text-white p-2 bg-dark" target="blank" href="https://github.com/AbdelrahmanAbounida/AWS-Price-Monitoring" style="font-weight: bold;">AWS-Price-Monitoring</a>
+                                </div>
+                            </a>                                
+                        </div>
+                    </article>
+
+                    <article class="col-md-4 col-sm-6 portfolio-item apps soft mb-5 pb-5">
+                      <div class="portfolio-thumb in text-center">
+                          <a href="#" class="main-link text-center" href="https://github.com/AbdelrahmanAbounida/Grid-Drawer target="blank"">
+                              <img class="img-responsive container pb-5" src="assets/projects/grid1.PNG" width="200" height="300" style="padding-bottom: 100px !important;" alt="">
+                              <div class=" ">
+                                <a class="project-title btn bg-success text-white p-2 bg-dark" target="blank" href="https://github.com/AbdelrahmanAbounida/Grid-Drawer" style="font-weight: bold;">Grid Drawer</a>
+                              </div>
+                          </a>                                
+                      </div>
+                  </article>
+
+                  <article class="col-md-4 col-sm-6 portfolio-item apps soft mb-5 pb-5">
+                    <div class="portfolio-thumb in text-center">
+                        <a href="#" class="main-link text-center" href="https://github.com/AbdelrahmanAbounida/Excel-Automation" target="blank">
+                            <img class="img-responsive container" src="assets/projects/excel.jpg" style="padding-bottom: 80px !important;" width="200" height="300" alt="">
+                            <div class=" ">
+                              <a class="project-title btn bg-success text-white p-2 bg-dark" target="blank" href="https://github.com/AbdelrahmanAbounida/Excel-Automation" style="font-weight: bold;">Excel Automation
+                              </a>
+                            </div>
+                        </a>                                
+                    </div>
+                </article>
+
+                <article class="col-md-4 col-sm-6 portfolio-item apps soft mb-5 pb-5">
+                  <div class="portfolio-thumb in text-center">
+                      <a href="#" class="main-link text-center" href="https://github.com/AbdelrahmanAbounida/ANOM" target="blank">
+                          <img class="img-responsive container" src="assets/projects/ANOM1.jpeg" style="padding-bottom: 80px !important;" width="200" height="300" alt="">
+                          <div class=" ">
+                            <a class="project-title btn bg-success text-white p-2 bg-dark" target="blank" href="https://github.com/AbdelrahmanAbounida/ANOM" style="font-weight: bold;">ANOM-Application
+                            </a>
+                          </div>
+                      </a>                                
+                  </div>
+              </article>
+
+                <article class="col-md-4 col-sm-6 portfolio-item apps soft mb-5 pb-5">
+                  <div class="portfolio-thumb in text-center">
+                      <a href="#" class="main-link text-center" href="https://github.com/AbdelrahmanAbounida/Generate-QRCode" target="blank">
+                          <img class="img-responsive container" src="assets/projects/qr.png" style="padding-bottom: 80px !important;" width="200" height="300" alt="">
+                          <div class=" ">
+                            <a class="project-title btn bg-success text-white p-2 bg-dark" target="blank" href="https://github.com/AbdelrahmanAbounida/Generate-QRCode" style="font-weight: bold;">Generate QRCode
+                            </a>
+                          </div>
+                      </a>                                
+                  </div>
+              </article>
+
+              <article class="col-md-4 col-sm-6 portfolio-item apps soft mb-5 pb-5">
+                <div class="portfolio-thumb in text-center">
+                    <a href="#" class="main-link text-center" href="https://github.com/AbdelrahmanAbounida/Lejos-EV3-Autonomous-Robot" target="blank">
+                        <img class="img-responsive container" src="assets/projects/lejos.jpg" style="padding-bottom: 80px !important;" width="200" height="300" alt="">
+                        <div class=" ">
+                          <a class="project-title btn bg-success text-white p-2 bg-dark" target="blank" href="https://github.com/AbdelrahmanAbounida/Lejos-EV3-Autonomous-Robot" style="font-weight: bold;">Lejos-EV3-Autonomous Robot
+                          </a>
+                        </div>
+                    </a>                                
+                </div>
+              </article>
+    
+                    <article class="col-md-4 col-sm-6 portfolio-item apps soft mb-5 pb-5">
+                      <div class="portfolio-thumb in text-center">
+                          <a href="#" class="main-link text-center" href="https://github.com/AbdelrahmanAbounida/bestbuy-Scrapper" target="blank"> 
+                              <img class="img-responsive container" src="assets/projects/bestbuy.webp" width="200" height="300" alt="">
+                              <div class=" ">
+                                <a class="project-title btn bg-success text-white p-2 bg-dark" target="blank" href="https://github.com/AbdelrahmanAbounida/bestbuy-Scrapper" style="font-weight: bold;">
+                                  Bestbuy Scrapper</a>
+                              </div>
+                          </a>                                
+                      </div>
+                  </article>
+
+
+          <article class="col-md-4 col-sm-6 portfolio-item apps soft mb-5 pb-5">
+            <div class="portfolio-thumb in text-center">
+                <a href="#" class="main-link text-center" href="https://github.com/AbdelrahmanAbounida/Scrape-PDFs" target="blank">
+                    <img class="img-responsive container" src="assets/projects/pdfs.png" width="200" height="300" alt="">
+                    <div class=" ">
+                      <a class="project-title btn bg-success text-white p-2 bg-dark" target="blank" href="https://github.com/AbdelrahmanAbounida/Scrape-PDFs" style="font-weight: bold;">Scrape PDF Files</a>
+                    </div>
+                </a>                                
+            </div>
+        </article>
+
+
+<article class="col-md-4 col-sm-6 portfolio-item apps soft mb-5 pb-5">
+  <div class="portfolio-thumb in text-center">
+      <a href="#" class="main-link text-center" href="https://github.com/AbdelrahmanAbounida/Scrapping_Amazon_GPU_Cards" target="blank">
+          <img class="img-responsive container" src="assets/projects/gpu.jfif" style="padding-bottom: 80px !important;" width="200" height="300" alt="">
+          <div class=" ">
+            <a class="project-title btn bg-success text-white p-2 bg-dark" target="blank" href="https://github.com/AbdelrahmanAbounida/Scrapping_Amazon_GPU_Cards" style="font-weight: bold;">Scrapping Amazon GPU Cards
+            </a>
+          </div>
+      </a>                                
+  </div>
+</article>
+
+
+
+<article class="col-md-4 col-sm-6 portfolio-item apps soft mb-5 pb-5">
+  <div class="portfolio-thumb in text-center">
+      <a href="#" class="main-link text-center" href="https://github.com/AbdelrahmanAbounida/SportsScrapy" target="blank">
+          <img class="img-responsive container" src="assets/projects/sports.png" style="padding-bottom: 80px !important;" width="200" height="300" alt="">
+          <div class=" ">
+            <a class="project-title btn bg-success text-white p-2 bg-dark " target="blank" href="https://github.com/AbdelrahmanAbounida/SportsScrapy" style="font-weight: bold;" >Sports-Scrapy
+
+            </a>
+          </div>
+      </a>                                
+  </div>
+</article>
+
+                    </div>
+                </div>
+            </div>	
+        </section>
+    </div>	
+
+
+
+
+
+
+
+      <!--#####################################################################################################################################################-->
+      <!--#################################################################### Footer  #####################################################################-->
+      <!--#####################################################################################################################################################-->
+  
+      <!-- Footer -->
+      <footer class="text-center text-lg-start text-muted">
+        <!-- Section: Social media -->
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span class="text-white">Get connected with me</span>
+          </div>
+          <!-- Left -->
+  
+          <!-- Right -->
+          <div class="footer-icons">
+            <a href="https://www.linkedin.com/in/abdelrahman-yousef-32464a175/" target="blank" class="me-4 text-white mx-3">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/AbdelrahmanAbounida" target="blank" class="me-4 text-white mx-3">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+  
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4 text-white">
+                  <i class="fas fa-gem me-3"></i>Abdelrahman Abounida
+                </h6>
+                <p class="text-white">
+                  Here are some links that you may find useful.
+                </p>
+              </div>
+              <!-- Grid column -->
+  
+              <!-- Grid column -->
+  
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4 text-white">
+                  Useful links
+                </h6>
+                <p>
+                  <a
+                    href="#!"
+                    class="text-white"
+                    style="text-decoration: underline"
+                    >Skills</a
+                  >
+                </p>
+                <p>
+                  <a
+                    href="#!"
+                    class="text-reset text-white"
+                    style="text-decoration: underline"
+                    >Projects</a
+                  >
+                </p>
+                <p>
+                  <a
+                    href="#!"
+                    class="text-reset text-white"
+                    style="text-decoration: underline"
+                    >Services</a
+                  >
+                </p>
+                <!-- <p>
+                  <a
+                    href="#!"
+                    class="text-reset text-white"
+                    style="text-decoration: underline"
+                    >Contact</a
+                  >
+                </p> -->
+              </div>
+              <!-- Grid column -->
+  
+              <!-- Grid column -->
+              <div
+                class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-4 text-white"
+              >
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p>
+                  <i class="fas fa-home me-3"></i> Hamburg, triftstraße 102, DE
+                </p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  abdelrahmanaboneda@gmail.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> +49-15156610400</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+  
+        <!-- Copyright -->
+        <div
+          class="text-center p-4 text-white"
+          style="background-color: rgba(0, 0, 0, 0.05)"
+        >
+          © 2022 Copyright:
+          <a
+            class="text-reset fw-bold"
+            href="#"
+            style="color: rgb(16, 205, 16) !important"
+            >AbdelrahmanAbounida</a
+          >
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+
+
+
+
+
+
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"
+  ></script>
+
+  <script>
+    window.addEventListener('scroll',() => {
+  document.querySelector('nav').classList.toggle(
+      'window_scroll',window.scrollY >80
+  )
+})
+
+
+/*#############################3333**/
+
+$(function(){
+    $('.categories a').click(function(e){
+    	$('.categories ul li').removeClass('active');
+    	$(this).parent('li').addClass('active');
+    	var itemSelected = $(this).attr('data-filter');
+    	$('.portfolio-item').each(function(){
+    		if (itemSelected == '*'){
+    			$(this).removeClass('filtered').removeClass('selected');
+    			return;
+    		} else if($(this).is(itemSelected)){
+    			$(this).removeClass('filtered').addClass('selected');
+    		} else{
+    			$(this).removeClass('selected').addClass('filtered');
+    		}
+    	});
+    });
+});
+  </script>
+  </body>
+</html>
