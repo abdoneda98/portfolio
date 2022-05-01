@@ -1023,6 +1023,8 @@ cursor:default;
 }
 
 .portfolio-thumb {
+    background-color: rgb(181, 185, 183) !important;
+  padding-top: 15px !important;
   display:block;
   position:relative;
   box-shadow:0 2px 5px rgba(0,0,0,0.08);
