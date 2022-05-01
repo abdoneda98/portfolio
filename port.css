@@ -992,7 +992,7 @@ nav {
 
 .portfolio-item {
   position:relative;
-margin-bottom:30px;
+  margin-bottom:30px;
 -webkit-transform:scale(1);
 transform:scale(1);
 opacity:1;
@@ -1023,7 +1023,7 @@ cursor:default;
 }
 
 .portfolio-thumb {
-    background-color: rgb(181, 185, 183) !important;
+   background-color: rgb(181, 185, 183) !important;
   padding-top: 15px !important;
   display:block;
   position:relative;
